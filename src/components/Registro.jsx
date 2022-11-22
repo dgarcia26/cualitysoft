@@ -35,6 +35,7 @@ export const Registro = (props) => {
 
       // eslint-disable-next-line
       obtenerDatos();
+      // eslint-disable-next-line
     },[])
 
     const guardarDatos=async(e)=>{
