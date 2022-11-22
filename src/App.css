@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +39,13 @@
     transform: rotate(360deg);
   }
 }
+
+/*---Navegacion----*/
+.navbar{
+  font-family: 'Arial';
+  font-size: 20px;
+}
+.list-group-item{
+  font-size: 30px;
+}
+
