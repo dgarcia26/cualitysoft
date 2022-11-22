@@ -33,6 +33,7 @@ export const Registro = (props) => {
       }
       }
 
+      // eslint-disable-next-line
       obtenerDatos();
     },[])
 
