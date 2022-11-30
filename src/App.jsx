@@ -5,6 +5,7 @@ import Login from "./components/Login"
 import Admin from "./components/Admin"
 import Navbar from "./components/Navbar"
 import {auth} from './firebase'
+import Sesion from "./components/Sesion";
 
 
 function App (){
@@ -28,6 +29,7 @@ function App (){
                     <Route path="/" element={<Inicio/>}/>
                     <Route path="admin" element={<Admin/>}/>
                     <Route path="login" element={<Login/>}/>
+                    <Route path="Sesion" element={<Sesion/>}/>
                 </Routes>
             </div>
         </Router>

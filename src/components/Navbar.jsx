@@ -12,10 +12,10 @@ const Navbar = (props) => {
         })
     }
     return (
-        <div> 
+        <div className="sticky-top"> 
             <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                            <Link className="navbar-brand" to="/">MultiServices</Link>
+                            <Link className="navbar-brand" to="/">MultiServicios</Link>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                             </button>                
@@ -25,11 +25,13 @@ const Navbar = (props) => {
                             <Link className="nav-link" to="/"><button type="button" class="btn btn-light">Inicio</button></Link>
                             {
                                 props.firebaseUser !== null ? (
-                                    <Link className="nav-link" to="/admin"><button type="button" class="btn btn-light">Admin</button></Link>
+                                    //<Link className="nav-link" to="/admin"><button type="button" class="btn btn-light">Admin</button></Link>
+                                    <Link className="nav-link" to="/Sesion"><button type="button" class="btn btn-light">Sesion</button></Link>
                                 ) :
                                     null
 
                             }
+                            
                             {
                                 props.firebaseUser !== null ? (
                                     <button class="btn btn-light"

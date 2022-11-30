@@ -19,6 +19,7 @@ const Admin = () => {
             user && (
                 //<h2> Usuario conectado: <i>{user.email}</i></h2>
                 <Registro user={user}/>
+              
             )
         }
     </div>
