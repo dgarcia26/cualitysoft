@@ -11,7 +11,7 @@ return (
         <h1 className="titulo">MultiServicios</h1>
       
       <section>
-      {/*<!-- Example Code -->*/}
+      
     
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
           <div class="carousel-indicators">
@@ -52,7 +52,7 @@ return (
             <span class="visually-hidden">Next</span>
           </button>
         </div>    
-    {/*<!-- End Example Code -->*/}
+    
     </section>
         <hr />
         <section>
